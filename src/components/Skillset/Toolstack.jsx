@@ -1,12 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
-  SiNetlify,
-} from "react-icons/si";
+import { SiVisualstudiocode, SiNetlify } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 
 const Toolstack = () => {
@@ -18,15 +12,9 @@ const Toolstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <FaGitAlt />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col> */}
     </Row>
   );
 };
