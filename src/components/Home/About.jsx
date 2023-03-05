@@ -15,12 +15,14 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, my name is <span className="yellow">Prabakaran </span>
+              Hi, My name is <span className="yellow">Prabakaran </span>
               and I'm from <span className="yellow"> TamilNadu, India.</span>
               <br />
               <br />
               I recently graduated with a Bachelor's degree in Metallurgical
-              Engineering in 2022. My educational background in metallurgy has
+              Engineering in 2022 and also I'm currently pursuing my MERN stack
+              web developer course. I am now looking to launch my career as a
+              MERN Stack Developer. My educational background in metallurgy has
               given me a solid foundation in technical and analytical skills,
               while my training in the MERN stack has equipped me with the
               ability to develop innovative web applications.
