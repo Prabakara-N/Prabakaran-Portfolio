@@ -5,8 +5,8 @@ import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
+import weather from "../assets/projects/weather-api.jpg";
 
 const Projects = () => {
   return (
@@ -62,12 +62,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={weather}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Weather API"
+              description="This React.js weather app allows users to retrieve weather data and current time and date information for any location by entering a city name. The app utilizes APIs to retrieve data and uses the useState hook to manage state within the application. The user interface features a search bar for entering city names, and the app includes a loading animation while retrieving data from the APIs.To ensure user input is valid, the app includes input validation. Weather data is displayed in a separate component, along with a weather icon that corresponds to current weather conditions. The app also includes a separate time component that displays the current time and date of the selected location.Overall, this app is a user-friendly tool that showcases the power of modern web development frameworks. Its intuitive design, use of APIs and hooks, and input validation make it a great example of a well-designed React.js application that can help users retrieve essential information about weather and time from any location."
+              ghLink="https://github.com/Prabakara-N/react-weather-api"
+              demoLink="https://pk-react-weather-api.netlify.app/"
             />
           </Col>
 
