@@ -5,7 +5,7 @@ import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
-import kickstart from "../assets/projects/kickstart.png";
+import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
 import weather from "../assets/projects/weather-api.jpg";
 
 const Projects = () => {
@@ -42,11 +42,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={Expense_Tracker}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="Expense Tracker"
+              description="The Expense Tracker project is a simple yet powerful web application that allows users to keep track of their expenses. It was built using React JS and utilizes the useState and useEffect hooks. The project provides a responsive and user-friendly interface and includes features such as add, delete, edit, and view transactions, as well as a summary of the user's expenses and income. The alert notification feature provides a convenient way for users to confirm that their transactions have been added, edited, or deleted successfully.The project also includes two radio buttons, one for income and one for expenses. When the user selects the income radio button, the entered value will be added as a positive amount, and when the user selects the expense radio button, the entered value will be added as a negative amount. The use of the useEffect hook for storing transaction data in local storage and calculating changes in the transactions makes the application more efficient and user-friendly."
+              ghLink="https://github.com/Prabakara-N/react-expense-tracker"
+              demoLink="https://pk-react-expense-tracker.netlify.app/"
             />
           </Col>
 
@@ -73,7 +74,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={Expense_Tracker}
               isBlog={false}
               title="Solidity Kickstart"
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."

@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiReact, DiNodejs } from "react-icons/di";
 import {
-  SiMaterialui,
+  SiTailwindcss,
   SiRedux,
   SiHtml5,
   SiCss3,
@@ -34,7 +34,7 @@ const Techstack = () => {
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiTailwindcss />
       </Col>
     </Row>
   );
