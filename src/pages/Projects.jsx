@@ -4,7 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
+import Ecommerce from "../assets/projects/e-commerce.jpg";
 import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
 import weather from "../assets/projects/weather-api.jpg";
 
@@ -22,11 +22,12 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={Ecommerce}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="E-Commerce Store"
+              description="I just finished working on this e-commerce website project using React JS and Tailwind CSS. It's a fake store API where users can browse products, add items to their cart, and complete the checkout process. I used routing to make it easy for users to navigate between different pages, like the productm infomation and home pages. Plus, I also included local storage to store the user's shopping cart data, so they can resume their shopping session later.To manage state changes, I used React hooks like useContext, useState, and useEffect. These hooks helped me update the state of the website based on user interactions, like when a user adds or deletes items from their cart.I also added alert messages to notify users when they add an item to their cart, delete an item, or clear their cart."
+              ghLink="https://github.com/Prabakara-N/react-ecommerce"
+              demoLink="https://prabakaran-ecommerce.netlify.app/"
             />
           </Col>
 
