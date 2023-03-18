@@ -12,6 +12,7 @@ import {
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -86,6 +87,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://hashnode.com/@Prabakaran55"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
