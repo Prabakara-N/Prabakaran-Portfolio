@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
+import netflix from "../assets/projects/netflix.jpg";
 import Ecommerce from "../assets/projects/e-commerce.jpg";
 import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
 import weather from "../assets/projects/weather-api.jpg";
@@ -33,11 +33,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={netflix}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              title="Netflix Clone"
+              description="In this Netflix clone project, I used React and Tailwind CSS to create a user interface that resembles the popular streaming platform. To handle client-side routing, I used the Browser Router Dom library. And to allow users to create accounts, log in, and access certain features of the app, I integrated Firebase Authentication. The favorite button and scroll functionality make it easier for users to find and interact with their favorite shows, while the random background image adds some variety to the homepage. Overall, these features demonstrate my ability to work with third-party APIs and libraries, as well as my commitment to creating a polished and user-friendly app.Overall, this project allowed me to practice my React and CSS skills, as well as gain experience working with Firebase and integrating third-party libraries into a React app."
+              ghLink="https://github.com/Prabakara-N/netflix-clone-firebase"
+              demoLink="https://prabakara-netflix-clone.netlify.app/"
             />
           </Col>
 
