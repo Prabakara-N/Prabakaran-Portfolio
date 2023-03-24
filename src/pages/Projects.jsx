@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
+import shoekart from "../assets/projects/shoe-shop.png";
 import netflix from "../assets/projects/netflix.jpg";
 import Ecommerce from "../assets/projects/e-commerce.jpg";
 import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
@@ -20,6 +20,17 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shoekart}
+              isBlog={false}
+              title="Shoe Shop"
+              description="I just finished working on this shoe-shop website project using React JS and Tailwind CSS. I get pictures from Unsplash website, users can browse products, add items to their cart, and complete the checkout process. I used routing to make it easy for users to navigate between different pages, like the productm infomation and home pages. Plus, I also included local storage to store the user's shopping cart data, so they can resume their shopping session later.To manage state changes, I used React hooks like useContext, useState, and useEffect. These hooks helped me update the state of the website based on user interactions, like when a user adds or deletes items from their cart.I also added alert messages to notify users when they add an item to their cart, delete an item, or clear their cart."
+              ghLink="https://github.com/Prabakara-N/react-shoe-cart"
+              demoLink="https://prabakaran-shoestore-ecommerce.netlify.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ecommerce}
@@ -50,16 +61,6 @@ const Projects = () => {
               description="The Expense Tracker project is a simple yet powerful web application that allows users to keep track of their expenses. It was built using React JS and utilizes the useState and useEffect hooks. The project provides a responsive and user-friendly interface and includes features such as add, delete, edit, and view transactions, as well as a summary of the user's expenses and income. The alert notification feature provides a convenient way for users to confirm that their transactions have been added, edited, or deleted successfully.The project also includes two radio buttons, one for income and one for expenses. When the user selects the income radio button, the entered value will be added as a positive amount, and when the user selects the expense radio button, the entered value will be added as a negative amount. The use of the useEffect hook for storing transaction data in local storage and calculating changes in the transactions makes the application more efficient and user-friendly."
               ghLink="https://github.com/Prabakara-N/react-expense-tracker"
               demoLink="https://pk-react-expense-tracker.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pg}
-              isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
             />
           </Col>
 
