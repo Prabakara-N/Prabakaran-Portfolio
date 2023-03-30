@@ -4,7 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import shoekart from "../assets/projects/shoe-shop.png";
 import netflix from "../assets/projects/netflix.jpg";
-import Ecommerce from "../assets/projects/e-commerce.jpg";
+import Blog from "../assets/projects/blog.jpg";
 import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
 import weather from "../assets/projects/weather-api.jpg";
 import foodapp from "../assets/projects/food-app.png";
@@ -26,7 +26,7 @@ const Projects = () => {
               imgPath={shoekart}
               isBlog={false}
               title="Shoe Shop"
-              description="I just finished working on this shoe-shop website project using React JS and Tailwind CSS. I get pictures from Unsplash website, users can browse products, add items to their cart, and complete the checkout process. I used routing to make it easy for users to navigate between different pages, like the productm infomation and home pages. Plus, I also included local storage to store the user's shopping cart data, so they can resume their shopping session later.To manage state changes, I used React hooks like useContext, useState, and useEffect. These hooks helped me update the state of the website based on user interactions, like when a user adds or deletes items from their cart.I also added alert messages to notify users when they add an item to their cart, delete an item, or clear their cart."
+              description="I finished working on this shoe-shop website project using React JS and Tailwind CSS. I get pictures from Unsplash website, users can browse products, add items to their cart, and complete the checkout process. I used routing to make it easy for users to navigate between different pages, like the productm infomation and home pages. Plus, I also included local storage to store the user's shopping cart data, so they can resume their shopping session later.To manage state changes, I used React hooks like useContext, useState, and useEffect. These hooks helped me update the state of the website based on user interactions, like when a user adds or deletes items from their cart.I also added alert messages to notify users when they add an item to their cart, delete an item, or clear their cart."
               ghLink="https://github.com/Prabakara-N/react-shoe-cart"
               demoLink="https://prabakaran-shoestore-ecommerce.netlify.app/"
             />
@@ -45,12 +45,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Ecommerce}
+              imgPath={Blog}
               isBlog={false}
-              title="E-Commerce Store"
-              description="I just finished working on this e-commerce website project using React JS and Tailwind CSS. It's a fake store API where users can browse products, add items to their cart, and complete the checkout process. I used routing to make it easy for users to navigate between different pages, like the productm infomation and home pages. Plus, I also included local storage to store the user's shopping cart data, so they can resume their shopping session later.To manage state changes, I used React hooks like useContext, useState, and useEffect. These hooks helped me update the state of the website based on user interactions, like when a user adds or deletes items from their cart.I also added alert messages to notify users when they add an item to their cart, delete an item, or clear their cart."
-              ghLink="https://github.com/Prabakara-N/react-ecommerce"
-              demoLink="https://prabakaran-ecommerce.netlify.app/"
+              title="Blog Website"
+              description="I finished building a blog website using React, Bootstrap, and Sass! I added some cool features to make it more interactive and user-friendly.I used Firebase authentication to allow users to log in and create their own blog posts. And Firebase database helped me store all the blog collections, while the storage feature let users save images of their blog posts.I also used React Router DOM to make it easy for users to navigate to different pages on my website. Plus, I added alert messages that show up whenever a user creates, deletes, or updates a blog post. One of my favorite features is the ability for users to like and comment on blog posts, which makes the website more engaging. And I added a trending blogs section and a search feature, so users can easily find the content they're looking for."
+              ghLink="https://github.com/Prabakara-N/react-blog-app"
+              demoLink="https://prabakaran-react-blog.netlify.app/"
             />
           </Col>
 
