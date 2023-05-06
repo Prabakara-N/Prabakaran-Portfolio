@@ -9,6 +9,7 @@ import {
   SiBootstrap,
   SiExpress,
   SiMongodb,
+  SiFirebase,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -34,6 +35,9 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
