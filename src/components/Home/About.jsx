@@ -15,44 +15,42 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, My name is <span className="yellow">Prabakaran </span>
-              and I'm from <span className="yellow"> TamilNadu, India.</span>
+              Hi, My name is <b className="yellow">Prabakaran </b>
+              and I'm from <b className="yellow"> TamilNadu, India.</b>
               <br />
               <br />
               I recently graduated with a Bachelor's degree in Metallurgical
               Engineering in 2022 and also I'm currently pursuing my MERN stack
-              web developer course. I am now looking to launch my career as a
-              MERN Stack Developer. My educational background in metallurgy has
+              web developer course. My educational background in metallurgy has
               given me a solid foundation in technical and analytical skills,
               while my training in the MERN stack has equipped me with the
-              ability to develop innovative web applications.
+              ability to develop innovative web applications. I'm now looking to
+              launch my career as a MERN Stack Developer.
               <br />
               <br />
               As a<b className="yellow"> MERN-Stack </b>developer, I enjoy
               tackling new challenges and continuously expanding my skillset.
               <br />
-              <br />I am proficient in
-              <b className="yellow"> Javascript, </b>
-              as well as have knowledge in programming languages such as C,
-              {/* <b className="yellow"> GraphQL, and Solidity.</b> */}
-              <br />
-              <br />I have a passion for working with{" "}
-              <b className="yellow">Node.js, MongoDB,</b> and
+              I'm proficient in
+              <b className="yellow"> Javascript. </b>I have a passion for
+              working with{" "}
+              <b className="yellow">
+                <i> Node-JS, Express-JS, MongoDB&nbsp;</i>{" "}
+              </b>{" "}
+              and modern Javascript libraries and frameworks &nbsp;like
               <i>
-                <b className="yellow">
-                  {" "}
-                  modern Javascript libraries and frameworks
-                </b>
+                <b className="yellow"> React-JS. </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="yellow"> React.js</b>
-              </i>
+              I'm confident in my ability to positively contribute with my
+              skills and knowledge.
               <br />
-              <br />I am also interested in building new
+              <br />
+              I'm also interested in building new
               <i>
-                <b className="yellow"> Web Technologies and Products, </b>
-                as well as exploring areas related to
+                <b className="yellow"> Web Technologies and Products, </b>{" "}
+              </i>
+              as well as exploring areas related to
+              <i>
                 <b className="yellow"> Artificial Intelligence.</b>
               </i>
               <br />
