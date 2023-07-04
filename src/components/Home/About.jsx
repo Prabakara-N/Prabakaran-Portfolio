@@ -75,7 +75,7 @@ const About = () => {
                   href="https://github.com/Prabakara-N"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
