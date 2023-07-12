@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import shoekart from "../assets/projects/shoe-shop.png";
-import netflix from "../assets/projects/netflix.jpg";
+import blogMern from "../assets/projects/blog-mern.png";
 import Blog from "../assets/projects/blog.jpg";
 import Expense_Tracker from "../assets/projects/expense-tracker.jpg";
 import weather from "../assets/projects/weather-api.jpg";
@@ -21,6 +21,22 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogMern}
+              isBlog={false}
+              title="Blog - MERN"
+              description="The project involves implementing a Mongo DB(No SQL) database to store and organize user-specific blogs. I
+              integrated RESTful APIs to enable seamless communication and data exchange between the client-side
+              application and the server. I utilized Webpack and Babel for build process.For back-end I used Express.js in Node.js for routing and middleware, while adopting the MVC (Model-ViewController) architectural pattern. With the model handling data and business logic, the view rendering the
+              user interface, and the controller managing user inputs and data flow.For front-end I utilized React.js along with Redux for efficient state management & React Dev Tools for
+              effective debugging during the development process. Bootstrap framework to work on the user interface (UI)
+              and create a responsive web design."
+              ghLink="https://github.com/Prabakara-N/blog-website-mern"
+              demoLink="https://blogs-mern.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shoekart}
@@ -51,17 +67,6 @@ const Projects = () => {
               description="I finished building a blog website using React, Bootstrap, and Sass! I added some cool features to make it more interactive and user-friendly.I used Firebase authentication to allow users to log in and create their own blog posts. And Firebase database helped me store all the blog collections, while the storage feature let users save images of their blog posts.I also used React Router DOM to make it easy for users to navigate to different pages on my website. Plus, I added alert messages that show up whenever a user creates, deletes, or updates a blog post. One of my favorite features is the ability for users to like and comment on blog posts, which makes the website more engaging. And I added a trending blogs section and a search feature, so users can easily find the content they're looking for."
               ghLink="https://github.com/Prabakara-N/react-blog-app"
               demoLink="https://prabakaran-react-blog.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={netflix}
-              isBlog={false}
-              title="Netflix Clone"
-              description="In this Netflix clone project, I used React and Tailwind CSS to create a user interface that resembles the popular streaming platform. To handle client-side routing, I used the Browser Router Dom library. And to allow users to create accounts, log in, and access certain features of the app, I integrated Firebase Authentication. The favorite button and scroll functionality make it easier for users to find and interact with their favorite shows, while the random background image adds some variety to the homepage. Overall, these features demonstrate my ability to work with third-party APIs and libraries, as well as my commitment to creating a polished and user-friendly app.Overall, this project allowed me to practice my React and CSS skills, as well as gain experience working with Firebase and integrating third-party libraries into a React app."
-              ghLink="https://github.com/Prabakara-N/netflix-clone-firebase"
-              demoLink="https://prabakara-netflix-clone.netlify.app/"
             />
           </Col>
 
