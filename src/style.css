@@ -751,3 +751,31 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.about-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-left: 1.15rem !important;
+  margin-top: 2rem;
+}
+
+.icon-container {
+  position: relative;
+  text-align: center;
+}
+
+.tech-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  opacity: 0;
+  font-size: 1rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.tech-icons:hover .tech-text {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}

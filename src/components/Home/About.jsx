@@ -16,44 +16,55 @@ const About = () => {
             </h1>
             <p className="home-about-body">
               Hi, My name is <b className="yellow">Prabakaran </b>
-              and I'm from <b className="yellow"> TamilNadu, India.</b>
+              and I'm from <b className="yellow"> Coimbatore, TamilNadu.</b>
               <br />
+              <br />I have one year of experience in frontend development with a
+              focus on modern web technologies. I am currently working with the
+              following stacks:
+              <ul className="about-ul">
+                <li>
+                  <b className="yellow">Next-Js</b>
+                </li>
+                <li>
+                  <b className="yellow">Typescript</b>
+                </li>
+                <li>
+                  <b className="yellow">Tailwind CSS</b>
+                </li>
+                <li>
+                  <b className="yellow">tRPC</b>
+                </li>
+                <li>
+                  <b className="yellow">Recoil</b>
+                </li>
+                <li>
+                  <b className="yellow">Firebase</b>
+                </li>
+              </ul>
+              <br />I am currently employed at{" "}
+              <a href="https://www.darthwares.com/" className="yellow">
+                Darthwares
+              </a>
+              , where I work on developing innovative web solutions. I have
+              learned a lot from my team at Darthwares, building numerous UI
+              components to improve user experience and continuously fixing
+              bugs. One of my notable projects is{" "}
+              <a href="https://www.leetcv.com/" className="yellow">
+                LeetCV
+              </a>
+              , an online resume and portfolio builder website that helps users
+              create stunning resumes and portfolios with peer review
+              capabilities.
               <br />
-              I recently graduated with a Bachelor's degree in Metallurgical
-              Engineering in 2022 and also I'm currently pursuing my MERN stack
-              web developer course. My educational background in metallurgy has
-              given me a solid foundation in technical and analytical skills,
-              while my training in the MERN stack has equipped me with the
-              ability to develop innovative web applications. I'm now looking to
-              launch my career as a MERN Stack Developer.
-              <br />
-              <br />
-              As a<b className="yellow"> MERN-Stack </b>developer, I enjoy
+              <br />I am passionate about building new{" "}
+              <b className="yellow">Web Technologies and Products</b> and
+              exploring areas related to{" "}
+              <b className="yellow">Artificial Intelligence</b>. I enjoy
               tackling new challenges and continuously expanding my skillset.
               <br />
-              I'm proficient in
-              <b className="yellow"> Javascript. </b>I have a passion for
-              working with{" "}
-              <b className="yellow">
-                <i> Node-JS, Express-JS, MongoDB&nbsp;</i>{" "}
-              </b>{" "}
-              and modern Javascript libraries and frameworks &nbsp;like
-              <i>
-                <b className="yellow"> React-JS. </b>
-              </i>
-              I'm confident in my ability to positively contribute with my
-              skills and knowledge.
-              <br />
-              <br />
-              I'm also interested in building new
-              <i>
-                <b className="yellow"> Web Technologies and Products, </b>{" "}
-              </i>
-              as well as exploring areas related to
-              <i>
-                <b className="yellow"> Artificial Intelligence.</b>
-              </i>
-              <br />
+              <br />I am confident in my ability to positively contribute with
+              my skills and knowledge. Let's connect and create something
+              amazing together!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -85,7 +96,7 @@ const About = () => {
                   href="https://www.linkedin.com/in/prabakaran-m-105289219/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
