@@ -15,11 +15,10 @@ const Projects = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent Top <strong className="yellow">Works </strong>
+          Projects I Have Worked On for Learning{" "}
+          <strong className="yellow">React JS</strong> and{" "}
+          <strong className="yellow">MERN Stack.</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

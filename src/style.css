@@ -277,12 +277,13 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 1rem !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 1rem !important;
+  margin-bottom: 1rem;
 }
 
 .main-name {
@@ -410,7 +411,7 @@ button:focus {
   background-color: rgb(1, 6, 36);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 16px !important ;
 }
 .footer-copywright {
   display: flex;
@@ -606,6 +607,9 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  max-width: 768px;
+  margin: 0 auto;
+  line-height: 60px;
 }
 
 /* --------- */
@@ -778,4 +782,24 @@ button:focus {
 .tech-icons:hover .tech-text {
   transform: translate(-50%, 0);
   opacity: 1;
+}
+
+.home-type {
+  padding: 1rem;
+  text-align: left;
+  margin-bottom: 7rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  .heading-name {
+    margin-bottom: 2rem;
+  }
 }

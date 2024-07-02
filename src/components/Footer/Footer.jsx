@@ -11,59 +11,61 @@ const Footer = () => {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright"></Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} &nbsp;</h3>
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/Prabakara-N"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub
-                  style={{
-                    width: "22px",
-                    height: "22px",
-                  }}
-                />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/prabakaran-m-105289219/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn
-                  style={{
-                    width: "22px",
-                    height: "22px",
-                  }}
-                />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/swag__55__/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram
-                  style={{
-                    width: "22px",
-                    height: "22px",
-                  }}
-                />
-              </a>
-            </li>
-          </ul>
-        </Col>
+        <div className="footer-flex">
+          <Col md="4" className="footer-copywright">
+            <h3>Copyright © {year} &nbsp;</h3>
+            <img src={logo} className="img-fluid logo" alt="brand" />
+          </Col>
+          <Col md="4" className="footer-body">
+            <ul className="footer-icons">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Prabakara-N"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub
+                    style={{
+                      width: "22px",
+                      height: "22px",
+                    }}
+                  />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/prabakaran-m-105289219/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn
+                    style={{
+                      width: "22px",
+                      height: "22px",
+                    }}
+                  />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/swag__55__/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillInstagram
+                    style={{
+                      width: "22px",
+                      height: "22px",
+                    }}
+                  />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </div>
       </Row>
     </Container>
   );
