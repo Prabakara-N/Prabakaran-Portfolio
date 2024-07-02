@@ -13,12 +13,45 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiJavascript,
+  SiSanity,
+  SiTrpc,
+  SiRecoil,
+  SiAxios,
 } from "react-icons/si";
-import { AxiosSvg, RecoilSvg, TrpcSvg } from "./svg";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrpc />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRecoil />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSanity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
@@ -26,37 +59,10 @@ const Techstack = () => {
         <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJavascript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TrpcSvg />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <RecoilSvg />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <AxiosSvg />
+        <SiAxios />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
