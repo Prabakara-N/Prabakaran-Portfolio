@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact, DiNodejs } from "react-icons/di";
+import { DiReact, DiNodejs } from "react-icons/di";
 import {
   SiTailwindcss,
   SiRedux,
@@ -10,7 +10,11 @@ import {
   SiExpress,
   SiMongodb,
   SiFirebase,
+  SiNextdotjs,
+  SiTypescript,
+  SiJavascript,
 } from "react-icons/si";
+import { AxiosSvg, RecoilSvg, TrpcSvg } from "./svg";
 
 const Techstack = () => {
   return (
@@ -22,13 +26,28 @@ const Techstack = () => {
         <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TrpcSvg />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <RecoilSvg />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <AxiosSvg />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
