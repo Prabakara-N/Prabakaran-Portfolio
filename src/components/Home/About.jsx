@@ -15,9 +15,6 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, My name is <b className="yellow">Prabakaran </b>
-              and I'm from <b className="yellow"> Coimbatore, TamilNadu.</b>
-              <br />
               <br />I have one year of experience in frontend development with a
               focus on modern web technologies. I am currently working with the
               following stacks:
