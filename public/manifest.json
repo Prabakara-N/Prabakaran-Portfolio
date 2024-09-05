@@ -1,25 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Prabakaran Portfolio",
+  "name": "Prabakaran - Full Stack Developer Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "sFav.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Welcome to Prabakaran's Portfolio - Full Stack Developer specializing in React.js, Next.js, Tailwind CSS, Firebase and modern web technologies",
+  "author": "Prabakaran",
+  "keywords": "Prabakaran, Portfolio, Web Developer, Full Stack Developer, React Developer, Next.js, Tailwind CSS, Firebase, JavaScript, Node.js"
 }
