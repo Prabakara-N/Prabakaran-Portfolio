@@ -1,3 +1,13 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Sitemap
+Sitemap: https://prabakaran-portfolio.vercel.app/sitemap.xml
+
+# Meta tags from index.html
+# Title: Prabakaran | Full Stack Developer Portfolio
+# Description: Welcome to Prabakaran's Portfolio - Full Stack Developer specializing in React.js, Next.js, Tailwind CSS, Firebase and modern web technologies
+# Keywords: Prabakaran, Portfolio, Web Developer, Full Stack Developer, React Developer, Next.js, Tailwind CSS, Firebase, JavaScript, Node.js
+# Author: Prabakaran
+# Technologies: React.js, Next.js, Tailwind CSS, Firebase, Node.js, JavaScript
