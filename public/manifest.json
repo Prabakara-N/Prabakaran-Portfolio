@@ -12,7 +12,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Welcome to Prabakaran's Portfolio - Full Stack Developer specializing in React.js, Next.js, Tailwind CSS, Firebase and modern web technologies",
+  "description": "Welcome to Prabakaran's Portfolio - Full Stack Developer specializing in React.js, Next.js, TypeScript, JavaScript, Node.js, Tailwind CSS, Firebase and modern web technologies",
   "author": "Prabakaran",
   "keywords": "Prabakaran, Portfolio, Web Developer, Full Stack Developer, React Developer, Next.js, Tailwind CSS, Firebase, JavaScript, Node.js"
 }
