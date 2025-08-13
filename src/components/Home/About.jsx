@@ -15,9 +15,9 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />I have one year of experience in frontend development with a
-              focus on modern web technologies. I am currently working with the
-              following stacks:
+              <br />I have two years of experience in full-stack development
+              with a focus on modern web technologies. I am currently working
+              with the following stacks:
               <ul className="about-ul">
                 <li>
                   <b className="yellow">Next-Js</b>
@@ -45,23 +45,55 @@ const About = () => {
               , where I work on developing innovative web solutions. I have
               learned a lot from my team at Darthwares, building numerous UI
               components to improve user experience and continuously fixing
-              bugs. One of my notable projects is{" "}
-              <a href="https://www.leetcv.com/" className="yellow">
-                LeetCV
-              </a>
-              , an online resume and portfolio builder website that helps users
-              create stunning resumes and portfolios with peer review
-              capabilities.
+              bugs.
               <br />
-              <br />I am passionate about building new{" "}
-              <b className="yellow">Web Technologies and Products</b> and
-              exploring areas related to{" "}
-              <b className="yellow">Artificial Intelligence</b>. I enjoy
-              tackling new challenges and continuously expanding my skillset.
               <br />
-              <br />I am confident in my ability to positively contribute with
-              my skills and knowledge. Let's connect and create something
-              amazing together!
+              <b className="yellow">Key Projects:</b>
+              <br />
+              <br />
+              <b className="yellow">LeetCV.com</b> - AI-powered Resume Builder
+              <ul className="about-ul">
+                <li>
+                  Revamped UI components for improved responsiveness and
+                  performance
+                </li>
+                <li>
+                  Built Leet Link, a custom Linktree-style module for portfolio
+                  sharing
+                </li>
+                <li>
+                  Optimized application performance through legacy code
+                  refactoring
+                </li>
+              </ul>
+              <br />
+              <b className="yellow">LeetCampus.com</b> - AI-powered College
+              Academic Platform
+              <ul className="about-ul">
+                <li>
+                  Developed and enforced role-based access control, supporting
+                  admins, professors, and students
+                </li>
+                <li>
+                  Designed and implemented Leet Tutor, an AI-powered slide
+                  creation and presentation module with voice navigation and AI
+                  interaction
+                </li>
+                <li>
+                  Created dynamic role onboarding forms tailored for college
+                  users based on access level and workflow requirements
+                </li>
+                <li>
+                  Integrated Firebase automation for email/SMS communications
+                </li>
+                <li>
+                  Created dynamic portfolio generator with customizable themes
+                </li>
+              </ul>
+              <br />I am passionate about{" "}
+              <b className="yellow">AI integration</b> and{" "}
+              <b className="yellow">modern web technologies</b>, constantly
+              expanding my skillset to deliver exceptional user experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
