@@ -40,6 +40,12 @@ const Resume = () => {
           </Document>
         </Row>
 
+        <Row style={{ marginBottom: "45px" }}>
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page pageNumber={2} scale={width > 786 ? 1.5 : 0.5} />
+          </Document>
+        </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

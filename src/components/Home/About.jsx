@@ -51,44 +51,27 @@ const About = () => {
               <b className="yellow">Key Projects:</b>
               <br />
               <br />
-              <b className="yellow">LeetCV.com</b> - AI-powered Resume Builder
-              <ul className="about-ul">
-                <li>
-                  Revamped UI components for improved responsiveness and
-                  performance
-                </li>
-                <li>
-                  Built Leet Link, a custom Linktree-style module for portfolio
-                  sharing
-                </li>
-                <li>
-                  Optimized application performance through legacy code
-                  refactoring
-                </li>
-              </ul>
-              <br />
               <b className="yellow">LeetCampus.com</b> - AI-powered College
               Academic Platform
               <ul className="about-ul">
                 <li>
-                  Developed and enforced role-based access control, supporting
-                  admins, professors, and students
+                  Built role-based access control for admins, professors, and
+                  students
                 </li>
                 <li>
-                  Designed and implemented Leet Tutor, an AI-powered slide
-                  creation and presentation module with voice navigation and AI
-                  interaction
+                  Developed AI-powered slide creation module with voice
+                  navigation
                 </li>
                 <li>
-                  Created dynamic role onboarding forms tailored for college
-                  users based on access level and workflow requirements
+                  Created dynamic onboarding forms and portfolio generator
                 </li>
-                <li>
-                  Integrated Firebase automation for email/SMS communications
-                </li>
-                <li>
-                  Created dynamic portfolio generator with customizable themes
-                </li>
+              </ul>
+              <br />
+              <b className="yellow">LeetCV.com</b> - AI-powered Resume Builder
+              <ul className="about-ul">
+                <li>Revamped UI components for better responsiveness</li>
+                <li>Built custom Linktree-style portfolio sharing module</li>
+                <li>Optimized performance through code refactoring</li>
               </ul>
               <br />I am passionate about{" "}
               <b className="yellow">AI integration</b> and{" "}
